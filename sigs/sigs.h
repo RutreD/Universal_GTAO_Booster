@@ -15,7 +15,6 @@ extern size_t gtaLen;
 
 extern char const* messageboxTitle;
 
-extern BOOL shouldApplyLegalAndLogoPatches;
 
 void applyLegalAndLogoPatches(void);
 

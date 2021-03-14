@@ -8,8 +8,6 @@ void logMsgColor(uint16_t color, char const* fmt, ...);
 
 void createConsoleAndRedirectIo(void);
 
-void removeConsoleAndIoRedirect(void);
-
 enum ConsoleColors {
 	consoleBlackOnBlack = 0x00,
 	consoleBlackOnBlue = 0x10,

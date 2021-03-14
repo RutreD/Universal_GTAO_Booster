@@ -230,13 +230,7 @@ void nop(void* addr, size_t bytesToNop) {
 	memset(addr, 0x90, bytesToNop);
 }
 
-void applyLegalAndLogoPatches(void) {
-	if(!shouldApplyLegalAndLogoPatches) {
-		logMsg("Skipped patching %s", legalsName);
-		logMsg("Skipped patching %s", rsLogosName);
-		return;
-	}
-	
+void applyLegalAndLogoPatches(void) {	
 	nop(legalsPtr, 2);
 	logMsg("Patched %s", legalsName);
 	

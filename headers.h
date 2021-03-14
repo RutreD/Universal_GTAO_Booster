@@ -5,7 +5,6 @@
 
 #include "minhook/include/MinHook.h"
 #include "Psapi.h"
-#include "ini/ini.h"
 
 #include "types.h"
 #include "log/log.h"
